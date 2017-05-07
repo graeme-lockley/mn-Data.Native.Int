@@ -28,7 +28,6 @@ assumption(fromString("12abc").withDefault(0) === 12);
 assumption(fromString("abc").withDefault(0) === 0);
 
 
-
 module.exports = {
     fromString,
     toString
